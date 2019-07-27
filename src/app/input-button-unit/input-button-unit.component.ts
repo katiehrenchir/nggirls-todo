@@ -15,7 +15,7 @@ import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
   styleUrls: ['./input-button-unit.component.css']
 })
 export class InputButtonUnitComponent implements OnInit {
-  title = 'Hello World';
+  title = 'enter a task...';
 
   constructor() { }
 

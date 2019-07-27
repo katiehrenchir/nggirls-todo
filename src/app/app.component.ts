@@ -12,11 +12,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'katies gr8 app';
+  title = 'My To Do List';
 
   ngOnInit() {
     setTimeout(() => {
-      this.title = 'awwww shoot the title changed';
+      this.title = 'My Nightmare List of Stuff I\'ll never get done';
     }, 10000);
   }
   
