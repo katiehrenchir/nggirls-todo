@@ -13,4 +13,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'katies gr8 app';
+
+  ngOnInit() {
+    setTimeout(() => {
+      this.title = 'awwww shoot the title changed';
+    }, 10000);
+  }
+  
 }
